@@ -1,0 +1,89 @@
+.CardBill__SepCard {
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 275px;
+    height: 400px;
+
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 15px 12px rgba(0 , 0 , 0 , 0.4);
+    
+} 
+.CardBill__ImageSection {
+    width: 100%;
+    /* border: 1px solid red;   */
+    text-align: center;
+    flex-basis: 33%;  
+    background-color: white;
+    padding-top: 4px;
+}
+.CardBill__ImageSection img {
+    height: 100%;
+}
+
+.CardBill__ContentSection {
+    flex-basis: 50%;
+    /* border: 1px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.CardBill__Content_ItemName {
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    flex-basis: 20%;
+}
+.CardBill__Content__PriceSection {
+    width: 100%;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    flex-basis: 20%;
+
+}
+.CardBill_Content__QuanSection {
+    width: 100%;
+    text-align: center;
+
+}
+.CardBill_Content__QuanSection h4 {
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.CardBill__Content_ButtonSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-basis: 35%;
+}
+.CardBill__Content_ButtonSection .IncreaButton{
+    background-color: blue;
+    font-size: 18px;
+    padding: 5px 7px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border: none;
+}
+.CardBill__Content_ButtonSection .DecreaButton{
+    background-color: red;
+    font-size: 18px;
+    padding: 5px 7px;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    border: none;
+}
+

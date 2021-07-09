@@ -1,0 +1,127 @@
+
+.paymentGateWay__mainContainer {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mainForm {
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 70vh;
+    text-align: center;
+    border-top: 8px solid blue;
+    border-bottom: 8px solid red;
+    border-left: 8px solid red;
+    border-right: 8px solid blue;
+    border-style: inset;
+}
+.mainForm div {
+    width: 100%;
+    /* border: 1px solid blue; */
+    
+    padding: 4px;
+    margin: 5px 0px;
+}
+.MainForm__TitleSection {
+    color: blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.mainForm__userName input , .mainForm__userAddress input{
+    width: 80%;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    caret-color: blue;
+    border-radius: 4px;
+    outline-style: none;
+    border: 1px solid black;
+}
+.mainForm__StateWithCountry {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mainForm__StateWithCountry input{
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    caret-color: blue;
+    border-radius: 4px;
+    outline-style: none;
+    border: 1px solid black;
+}
+.mainForm__PinCode input {
+    width: 60%;
+    padding: 5px 5px 5px 10px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    caret-color: blue;
+    border-radius: 4px;
+    outline-style: none;
+    border: 1px solid black;
+}
+.mainForm__CardInfo_number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.mainForm__CardInfo_number input {
+    padding: 5px 5px 5px 10px;
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    caret-color: blue;
+    border-radius: 4px;
+    outline-style: none;
+    border: 1px solid black;
+}
+.PayementMainSubmitSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.GoBackFromFinal {
+    background-color: violet;
+    border: 1px solid white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+.payFinalBtn {
+    background-color: blue;
+    border: 1px solid white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+.payFinalBtn.active{
+    background-color: green;
+}
